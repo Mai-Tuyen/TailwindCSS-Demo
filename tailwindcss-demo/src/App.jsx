@@ -5,9 +5,9 @@ import Movies from "./components/Movies";
 import Nav from "./components/Nav";
 function App() {
   return (
-    <div className="grid grid-cols-5">
+    <div className="grid md:grid-cols-5">
       <Nav />
-      <main className="col-span-4 bg-cyan-50 px-12 py-6">
+      <main className="bg-cyan-50 px-12 py-6 md:col-span-4">
         <AuthButtons />
         <Header />
         <Movies />
